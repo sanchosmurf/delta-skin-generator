@@ -1,0 +1,205 @@
+repo_name: sanchosmurf/delta-skin-generator
+report_id: cbe0ef82ed8856570e01f1664243a561
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-08T16:52:06+00:00'
+requested_by: steilerDev
+provider: github
+branch: main
+detected_tools_count: 15
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Frank Steiler
+  last_updated_on: 2024-04-09 15:53:00.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Frank Steiler
+  last_updated_on: 2024-04-09 15:53:00.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator/blob/main/.github/workflows/build-publish.yml
+  detection_source: ".github/workflows/build-publish.yml"
+  last_updated_by: Frank Steiler
+  last_updated_on: 2024-04-24 13:09:24.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Frank Steiler
+  last_updated_on: 2024-04-09 15:53:00.000000000 Z
+- name: "@types/inquirer"
+  description: TypeScript definitions for inquirer
+  package_url: https://www.npmjs.com/@types/inquirer
+  version: 9.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16530/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Frank Steiler
+  last_updated_on: 2024-04-24 11:40:16.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 7.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Frank Steiler
+  last_updated_on: 2024-04-24 17:49:21.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 7.6.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Frank Steiler
+  last_updated_on: 2024-04-24 17:49:21.000000000 Z
+- name: adm-zip
+  description: Javascript implementation of zip for nodejs with support for electron
+    original-fs
+  package_url: https://www.npmjs.com/adm-zip
+  version: 0.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16663/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Frank Steiler
+  last_updated_on: 2024-04-24 11:40:16.000000000 Z
+- name: inquirer
+  description: A collection of common interactive command line user interfaces
+  package_url: https://www.npmjs.com/inquirer
+  version: 9.2.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Frank Steiler
+  last_updated_on: 2024-04-24 11:40:16.000000000 Z
+- name: meow
+  description: CLI app helper
+  package_url: https://www.npmjs.com/meow
+  version: 13.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16181/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Frank Steiler
+  last_updated_on: 2024-04-24 11:40:16.000000000 Z
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.33.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Frank Steiler
+  last_updated_on: 2024-04-09 15:53:00.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/sanchosmurf/delta-skin-generator/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Frank Steiler
+  last_updated_on: 2024-04-24 11:40:16.000000000 Z
